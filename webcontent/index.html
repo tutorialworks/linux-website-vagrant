@@ -65,9 +65,6 @@
         }
 
         @keyframes cta {
-            /* 0% {
-                background-color: #9381FF;
-            } */
             0% {
                 background-color: #ff00cc;
             }
@@ -150,7 +147,6 @@ function updatebirds(data) {
         colourCell.textContent = bird.colour;
         distanceCell.textContent = bird.distance;
         likesCell.textContent = bird.likes;
-        // ctaCell.textContent = 'Call now';
 
         const ctaButton = document.createElement('button');
         ctaButton.setAttribute('data-name', bird.name);
